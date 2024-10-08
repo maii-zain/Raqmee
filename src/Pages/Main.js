@@ -1,11 +1,10 @@
-// Main.js
 import React, { useState, useEffect } from 'react';
-import ProductList from './Components/ProductList';
-import SearchBar from './Components/SearchBar';
-import CategoryFilter from './Components/CategoryFilter';
-import Pagination from './Components/Pagination';
-import SortDropdown from './Components/SortDropdown';
-import SellItem from './Components/SellItem';
+import ProductList from '../Components/ProductList';
+import SearchBar from '../Components/SearchBar';
+import CategoryFilter from '../Components/CategoryFilter';
+import Pagination from '../Components/Pagination';
+import SortDropdown from '../Components/SortDropdown';
+import SellItem from '../Components/SellItem';
 
 const Main = () => {
   const [products, setProducts] = useState([]);
@@ -36,13 +35,13 @@ const Main = () => {
     localStorage.setItem('products', JSON.stringify(products));
   }, [products]);
 
-  // Function to handle adding a new product
+ 
   const addProduct = (newProduct) => {
-    // Generate a new ID based on the current products length
+   
     const newId = products.length ? products[products.length - 1].id + 1 : 1;
-    const productWithId = { ...newProduct, id: newId }; // Add the ID to the new product
-    setProducts((prevProducts) => [...prevProducts, productWithId]); // Update products
-    setShowSellItemModal(false); // Close modal
+    const productWithId = { ...newProduct, id: newId }; 
+    setProducts((prevProducts) => [...prevProducts, productWithId]); 
+    setShowSellItemModal(false); 
   };
 
   const categories = Array.from(new Set(products.map((product) => product.category)));
@@ -92,7 +91,7 @@ const Main = () => {
       <ProductList products={displayedProducts} />
       <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={setCurrentPage} />
       
-      {/* Render SellItem modal conditionally */}
+      
       {showSellItemModal && <SellItem onClose={() => setShowSellItemModal(false)} onAddProduct={addProduct} />}
     </div>
   );
