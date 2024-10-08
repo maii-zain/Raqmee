@@ -30,7 +30,8 @@ Raqmee is a simple e-commerce webpage named built using React.js. It allows user
 
     -Run the development server
         npm start
-
+## Screenshots 
+    puplic/screenShots : include screenshots of the web page
 
 
 
