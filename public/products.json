@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Black T-Shirt",
+    "price": 14.99,
+    "category": "Clothing",
+    "description": "A comfortable black t-shirt made from 100% cotton. Perfect for everyday wear.",
+    "image": "/images/black_tshirt.jfif"
+  },
+  {
+    "id": 2,
+    "name": "Women's Summer Outfit",
+    "price": 49.99,
+    "category": "Clothing",
+    "description": "A stylish summer outfit made from lightweight materials, perfect for warm weather.",
+    "image": "/images/summer_outfit.png"
+  },
+  {
+    "id": 3,
+    "name": "Graphic T-Shirt",
+    "price": 19.99,
+    "category": "Clothing",
+    "description": "Trendy graphic t-shirt with bold designs, made from soft and breathable fabric.",
+    "image": "/images/graphic_tshirt.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "price": 89.99,
+    "category": "Sports",
+    "description": "High-performance running shoes with great cushioning for long-distance runs.",
+    "image": "/images/running_shoes.jfif"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Bluetooth Speaker",
+    "price": 39.99,
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker with excellent sound quality and long battery life.",
+    "image": "/images/bluetooth_speaker.jfif"
+  },
+  {
+    "id": 6,
+    "name": "Denim Jacket",
+    "price": 59.99,
+    "category": "Clothing",
+    "description": "Classic denim jacket, durable and stylish, a must-have for every wardrobe.",
+    "image": "/images/denim_jacket.jfif"
+  },
+  {
+    "id": 7,
+    "name": "Indoor Plant Set",
+    "price": 24.99,
+    "category": "Home & Garden",
+    "description": "A set of 3 beautiful indoor plants, perfect for adding greenery to your home.",
+    "image": "/images/indoor_plants.jfif"
+  },
+  {
+    "id": 8,
+    "name": "Yoga Mat",
+    "price": 29.99,
+    "category": "Sports",
+    "description": "Non-slip yoga mat, ideal for yoga, pilates, and other exercises.",
+    "image": "/images/yoga_mat.jfif"
+  },
+  {
+    "id": 9,
+    "name": "Smartphone Charger",
+    "price": 14.99,
+    "category": "Electronics",
+    "description": "Fast-charging USB-C charger compatible with most smartphones.",
+    "image": "/images/phone_charger.jfif"
+  },
+  {
+    "id": 10,
+    "name": "Leather Boots",
+    "price": 129.99,
+    "category": "Clothing",
+    "description": "Premium leather boots, perfect for both casual and formal wear.",
+    "image": "/images/leather_boots.jfif"
+  },
+  {
+    "id": 11,
+    "name": "Garden Tool Set",
+    "price": 49.99,
+    "category": "Home & Garden",
+    "description": "A comprehensive set of gardening tools including gloves, spades, and pruners.",
+    "image": "/images/garden_tools.jfif"
+  },
+  {
+    "id": 12,
+    "name": "Basketball",
+    "price": 29.99,
+    "category": "Sports",
+    "description": "Official size and weight basketball, ideal for outdoor play.",
+    "image": "/images/basketball.jfif"
+  },
+  {
+    "id": 13,
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Noise-canceling wireless headphones with a comfortable over-ear design.",
+    "image": "/images/headphones.jfif"
+  },
+  {
+    "id": 14,
+    "name": "Men's Casual Jacket",
+    "price": 69.99,
+    "category": "Clothing",
+    "description": "Lightweight jacket for casual wear, perfect for cool spring evenings.",
+    "image": "/images/casual_jacket.jfif"
+  },
+  {
+    "id": 15,
+    "name": "Outdoor Patio Set",
+    "price": 199.99,
+    "category": "Home & Garden",
+    "description": "A 4-piece outdoor patio set, including chairs and a table.",
+    "image": "/images/patio_set.jfif"
+  },
+  {
+    "id": 16,
+    "name": "Football",
+    "price": 24.99,
+    "category": "Sports",
+    "description": "High-quality football for outdoor games, with excellent grip and durability.",
+    "image": "/images/football.jfif"
+  },
+  {
+    "id": 17,
+    "name": "Smartwatch",
+    "price": 199.99,
+    "category": "Electronics",
+    "description": "Feature-packed smartwatch with fitness tracking and mobile notifications.",
+    "image": "/images/smartwatch.jfif"
+  },
+  {
+    "id": 18,
+    "name": "Winter Coat",
+    "price": 149.99,
+    "category": "Clothing",
+    "description": "Warm and cozy winter coat made with water-resistant material.",
+    "image": "/images/winter_coat.jfif"
+  },
+  {
+    "id": 19,
+    "name": "Outdoor Fire Pit",
+    "price": 149.99,
+    "category": "Home & Garden",
+    "description": "Stylish fire pit for outdoor gatherings, made from durable materials.",
+    "image": "/images/fire_pit.jfif"
+  },
+  {
+    "id": 20,
+    "name": "Tennis Racket",
+    "price": 89.99,
+    "category": "Sports",
+    "description": "Lightweight tennis racket designed for advanced players, with excellent grip and control.",
+    "image": "/images/tennis_racke.jfif"
+  }
+]
